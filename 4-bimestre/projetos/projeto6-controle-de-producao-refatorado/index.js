@@ -8,7 +8,8 @@ let dias = parseInt(prompt("Quantos dias deseja registrar? "))
 let producoes = []
 
 for (let i = 1; i <= dias; i++) {
-  let producao = parseInt(prompt(`Digite a quantidade produzida no dia ${i}: `))
+  let producao = parseInt(prompt(`Digite a quantidade produzida no dia ${i + 1}: 
+    `))
   producoes.push(producao)
 }
 
